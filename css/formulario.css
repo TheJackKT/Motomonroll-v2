@@ -1,0 +1,279 @@
+
+#logo img{
+
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 100px;
+
+}
+
+#logopag{
+
+    width: 10%;
+
+}
+
+.menu{
+
+  
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.menu a{
+
+
+    color: #f9f6ff;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    font-size: 1.4rem;
+    transition: all 0.2s ease;
+    
+}
+
+.menu a:hover{
+
+    border-radius: 10px;
+    background: rgb(229, 188, 234);
+    color: #52314a;
+}
+
+
+
+#logo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#menu a{
+
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+header{
+
+    background: rgba(35, 17, 35, 0.83);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+
+}   
+
+span{
+
+    color: white;
+
+}
+
+
+body{
+
+    margin: auto;
+    background: linear-gradient(to left, #9a6bff, #d968e5, #b353df, #5e2777);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+  
+
+#formulario h1{
+
+    color: rgb(255, 179, 252);
+    text-shadow: 0 5px 10px #b353df;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    
+}
+
+#formulario p{
+
+    color: #faebeb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+label{
+    color: rgb(255, 255, 255) ;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.2rem;
+
+}
+
+input{
+    border-radius: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    display: block;
+    align-items: center; 
+    font-variant: small-caps;
+    font-size: 20px;
+    transition: all 0.1s ease;
+
+}
+
+
+input:hover, input:focus{
+
+    background: #f4c7ff;
+    transform: scale(0.97);
+
+}
+
+textarea:hover, textarea:focus{
+
+    background: #f4c7ff;
+    transform: scale(0.97);
+
+}
+
+textarea{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    font-variant: small-caps;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    font-size: 20px;
+
+    transition: all 0.1s ease;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+    
+}   
+
+button:hover{
+
+    background: #d3b9cc;
+    transform: scale(0.95);
+}
+
+
+
+#formulario{
+
+    background: radial-gradient(#493048,#a05c96,#111111);
+    box-shadow: 0px 8px 10px #7d1982;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: white;
+    display: block;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    justify-content: center;
+}   
+
+footer{
+
+
+    background: rgba(35, 17, 35, 0.83);
+    color: #fff;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    
+}
+
+
+#sobrenosotros{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#contacto{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#redes{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+#redes img{
+
+    width: 70px;
+    border-radius: 50px;
+        transition: all 0.3s ease;
+}
+
+#imagenes{
+
+    display: flex;
+    margin-top: 10px;
+    background: #220d20;
+    padding: 15px;
+    border-radius: 50px;
+    gap: 10px;
+
+}
+
+#imagenes img:hover{
+    transform: translateY(-20px) scale(1.2);
+}
+
+
+#sobrenosotros h3, #contacto h3, #redes h3{
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+#sobrenosotros p, #contacto p, #redes p{
+
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
