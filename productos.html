@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/productos.css">
+
+</head>
+
+
+
+<body>
+
+    
+     <header>
+
+    
+    
+    <div id="logo">
+
+    <img id="logopag" src="img/logo.jpg" alt="logpagina" width=" 200">
+    <img src="img/nombrepag.png" alt="nombrepag" width="200">
+    <a href=""></a>
+    </div>
+  
+ 
+
+    <nav class="menu">
+        <a class="menuselect" href="index.html">Inicio</a>
+        <a class="menuselect" href="productos.html">Productos</a>
+        <a class="menuselect" href="carrito_de_compras.html">Carrito</a>
+        <a class="menuselect" href="Formulario.html">Contactanos</a>
+        <a class="menuselect" href="multimedia.html">Multimedia</a>
+        <a class="menuselect" href="login.html">Usuario</a>
+        
+        <span id="usuarioActivo"></span>
+    </nav>
+
+
+
+
+    </header>
+
+
+    <main>
+    <h3>Productos</h3>
+
+    <section id="productosGrid">
+
+        <div class="producto-card">
+            <img src="img/prod_1.jpg" alt="prod1">
+            <h1>Carenaje decorado</h1>  
+            <p>$ 100.000</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto-card">
+            <img src="img/prod_2.avif" alt="prod2">
+            <h1>stickers moto</h1>
+            <p>$ 100.000</p>
+            <button onclick="agregarAlCarrito(2)"   >Agregar al carrito</button>
+        </div>
+
+
+        <div class="producto-card">
+            <img src="img/prod_3.webp" alt="prod3">
+            <h1>llantas</h1>
+            <p>$ 200.000</p>
+            <button onclick="agregarAlCarrito(3)">Agregar al carrito</button>
+        </div>
+
+
+        <div class="producto-card">
+            <img src="img/prod_4.jpg" alt="prod4">
+            <h1>Stickers carenaje</h1>
+            <p>$ 50.000</p>
+            <button onclick="agregarAlCarrito(4)">Agregar al carrito</button>
+        </div>
+
+
+        <div class="producto-card">
+            <img src="img/prod_5.jpg" alt="prod5">
+            <h1>Casco moto</h1>
+            <p>$ 200.000</p>
+            <button onclick="agregarAlCarrito(5)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto-card">
+            <img src="img/prod_6.jpg" alt="prod6">
+            <h1>Decoracion moto</h1>
+            <p>$ 20.000</p>
+            <button onclick="agregarAlCarrito(6)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto-card">
+            <img src="img/prod_7.jpeg" alt="prod7">
+            <h1>Decoracion moto</h1>
+            <p>$ 30.000</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="producto-card">
+            <img src="img/prod_8.jpg" alt="prod8">
+            <h1>Casco moto</h1>
+            <p>$ 200.000</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="producto-card">
+            <img src="img/prod_9.jpg" alt="prod9">
+            <h1>Casco moto</h1>
+            <p>$ 150.000</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="producto-card">
+            <img src="img/prod_10.jpg" alt="prod10">
+            <h1>Carenaje moto</h1>
+            <p>$ 250.000</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+    </section>  
+
+    
+</main>
+
+<footer>
+
+
+
+
+       <div id="sobrenosotros">
+        <h3>Motomonroll</h3>
+        <p>Somos una tienda especializada en accesorios para moto diseñada para verdaderos apasionados de las dos ruedas.</p>
+        <p>Diseños modernos y personalizados  -  compra facil  -  atencion al cliente especializada</p>
+    </div>
+
+    <div id="contacto">
+        <h3>Contacto</h3>
+        <a href="contactanos_formulario.html">Contactanos</a>
+        <p>AV 123 # 12-34 SUR</p>
+        <p>3112943983</p>
+        <p>motomonroll93@gmail.com</p>
+    </div>
+
+    <div id="redes">
+        <h3>¡Siguenos en nuestras redes!</h3>
+
+   
+       <div id="imagenes">
+        <a id="linkred" href="https://instagram.com"> <img id="icologo" src="img/ig_ico.png" alt="ico"> </a>
+        
+        <a id="linkred" href="https://tiktok.com"> <img id="icologo" src="img/tiktok_ico.png" alt="ico"> </a>
+        
+        <a id="linkred" href="https://facebook.com"> <img id="icologo" src="img/fb_ico.png" alt="ico"> </a>
+       </div>
+    </div>
+
+</footer>
+
+    <script src="js/carrito.js"></script>
+
+</body>
+</html>
